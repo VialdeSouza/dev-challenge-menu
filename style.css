@@ -1,0 +1,24 @@
+:root {
+    --large-font: 24px;
+    --medium-font: 20px;
+    --small-font: 16px;
+    --text-primary-color: rgba(50, 50, 79, 1);
+    --text-secondary-color: rgba(0, 0, 0, 0.5);
+    --primary-color: rgba(235, 87, 87, 1);
+    --background-primary: rgba(255, 255, 255, 1);
+    --background-secondary: rgba(242, 242, 242, 1);
+    --alternative-color: rgba(0, 0, 0, 0.06);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: var(--large-font);
+}
+
+h2 {
+    font-size: var(--medium-font);
+}
+
+h3 {
+    font-size: var(--small-font);
+}
